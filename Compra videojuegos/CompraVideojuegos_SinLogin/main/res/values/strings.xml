@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DAMO_Practica2_v4</string>
+
+    <string-array name="spinner_array">
+        <item>Todas</item>
+        <item>PS4</item>
+        <item>XBOX</item>
+        <item>PC</item>
+    </string-array>
+</resources>
