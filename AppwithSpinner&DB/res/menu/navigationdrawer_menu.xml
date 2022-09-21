@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_games"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nd_games"
+            android:checked="true"/>
+        <item
+            android:id="@+id/navigation_ofertas"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/nd_ofertas"
+            />
+        <item
+            android:id="@+id/navigation_carrito"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/nd_carrito"
+            />
+        <item
+            android:id="@+id/navigation_inicio"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nd_home"
+            />
+    </group>
+
+</menu>
